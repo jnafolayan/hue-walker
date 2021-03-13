@@ -14,6 +14,9 @@ let height = 480
 let screenRatio = width / height
 
 let cellSize = 10
+if (window.innerWidth < 480) {
+  cellSize = 8;
+}
 
 init()
 
